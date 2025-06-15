@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/en/experience.md",
+                "file": "content/en/blogs/future-dolor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "experience"
+              "title": "future-dolor"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/en/experience.md",
+                "file": "content/en/blogs/future-dolor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for experience"
+              "title": "Backlinks for future-dolor"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/en/experience.md",
+                "file": "content/en/blogs/future-dolor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from experience"
+              "title": "Outgoing links from future-dolor"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/en/experience.md",
+                "file": "content/en/blogs/future-dolor.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of experience"
+              "title": "Outline of future-dolor"
             }
           }
         ]
@@ -170,6 +170,11 @@
   },
   "active": "3b3b5a85bf2ba63f",
   "lastOpenFiles": [
+    "public/CNAME",
+    "static/CNAME",
+    "content/en/_index.md",
+    "content/en/projects/_index.md",
+    "content/en/experience.md",
     "archetypes/static.md",
     "archetypes/blogpost.md",
     "public/en/blogs/future-dolor/index.html",
@@ -185,14 +190,10 @@
     "public/en/experience/index.html",
     "public/en/experience",
     "public/en/untitled/index.html",
-    "public/en/untitled",
     "content/en/about.md",
-    "content/en/experience.md",
     "content/en/contact.md",
-    "content/en/projects/_index.md",
     "content/en/blogs/future_dolor.md",
     "content/en/blogs/_index.md",
-    "content/en/_index.md",
     "archetypes/static.md.md",
     "public/images/linkedin.jpg",
     "archetypes/blogpost.md.md",
