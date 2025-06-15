@@ -1,0 +1,7 @@
+[[projects]]
+title = "Tiny Sheriff"
+description = "A Side-Scroller playformer game where you play as a Tiny Sheriff. I was the Lead Engineer on this project."
+tech = "Unity, C#, Git, GitHub, Jira"
+image = "/images/tinysheriff_header.jpg"
+link = "https://store.steampowered.com/app/3566060/Tiny_Sheriff/"
+

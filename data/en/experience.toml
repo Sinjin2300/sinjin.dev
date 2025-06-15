@@ -1,0 +1,11 @@
+[[experience]]
+  role = "Lead Engineer"
+  company = "Rotgut Games"
+  company_link = "" # Omit or leave blank if no link
+  period = "Sep 2024 - Present"
+  country = "USA"
+  responsibilities = [
+    "Coordinated a team of 9 Engineers in the creation of a Game.",
+    "Implemented core systems for the game such as Event Management and State Serialization"
+  ]
+  technologies = [ "C#", "Unity"]

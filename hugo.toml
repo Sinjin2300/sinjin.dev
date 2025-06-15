@@ -1,0 +1,59 @@
+baseURL = 'https://sinjin.dev/'
+languageCode = 'en-us'
+title = 'Sinjin Rushton'
+theme = 'noir'
+
+relativeURLs = true
+canonifyURLs = true
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Sinjin Rushton - Portfolio & Blog"
+    weight = 1
+    contentDir = "content/en"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "About"
+        pageRef = "/about" # Corresponds to content/en/about.md or content/en/about/_index.md
+        weight = 1
+      [[languages.en.menu.main]]
+        name = "Experience"
+        pageRef = "/experience"
+        weight = 2
+      [[languages.en.menu.main]]
+        name = "Projects"
+        pageRef = "/projects"
+        weight = 3
+      [[languages.en.menu.main]]
+        name = "Blog"
+        pageRef = "/blogs" # Assumes a section named 'blogs'
+        weight = 4
+      [[languages.en.menu.main]]
+        name = "Contact"
+        pageRef = "/contact"
+        weight = 5
+      [[languages.en.menu.main]]
+        name = "Resume"
+        pageRef = "/resume"
+        weight = 6
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  name = "Sinjin Rushton"
+  location = "Los Angeles"
+  description = "I'm a software engineer and game developer who enjoys tinkering with computers."
+  profile_image = "/images/linkedin.jpg" # Place in your site's static/images/
+  # Social links
+  github = "https://github.com/Sinjin2300"
+  github_username = "Sinjin2300"
+  linkedin = "https://www.linkedin.com/in/sinjin-rushton/"
+  linkedin_username = "sinjin-rushton"
+
+  email = "root@sinjin.dev"

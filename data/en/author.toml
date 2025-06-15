@@ -1,0 +1,11 @@
+[author]
+  name = "Sinjin Rushton"
+  location = "Los Angeles"
+  description = "I'm a software engineer and game developer who enjoys tinkering with computers."
+  profile_image = "/images/linkedin.jpg" # Place in your site's static/images/
+  # Social links
+  github = "https://github.com/Sinjin2300"
+  github_username = "Sinjin2300"
+  linkedin = "https://www.linkedin.com/in/sinjin-rushton"
+  linkedin_username = "sinjin-rushton"
+  email = "root@sinjin.dev"
