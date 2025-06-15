@@ -3,8 +3,8 @@
     <h1 class="text-5xl font-bold mb-12 text-text-primary-light dark:text-text-primary-dark">{{ .Title }}</h1>
     
     <div class="space-y-12 max-w-3xl mx-auto">
-        {{ $blogsData := index site.Data .Language.Lang "blogs" }}
-        {{ range $blogsData.blogs }}
+        {{ $blogsData := index site.Data .Language.Lang "blog" }}
+        {{ range $blogsData.blog }}
         <div class="group">
             <p class="text-text-secondary-light dark:text-text-secondary-dark text-sm mb-2">{{ .date }}</p>
             <a href="{{ .link }}" class="block" target="_blank">

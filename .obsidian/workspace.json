@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/en/blogs/future-dolor.md",
+                "file": "content/en/resume.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "future-dolor"
+              "title": "resume"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/en/blogs/future-dolor.md",
+                "file": "content/en/resume.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for future-dolor"
+              "title": "Backlinks for resume"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/en/blogs/future-dolor.md",
+                "file": "content/en/resume.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from future-dolor"
+              "title": "Outgoing links from resume"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/en/blogs/future-dolor.md",
+                "file": "content/en/resume.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of future-dolor"
+              "title": "Outline of resume"
             }
           }
         ]
@@ -170,28 +170,31 @@
   },
   "active": "3b3b5a85bf2ba63f",
   "lastOpenFiles": [
-    "public/CNAME",
-    "static/CNAME",
+    "content/en/experience.md",
+    "content/en/contact.md",
+    "content/en/about.md",
     "content/en/_index.md",
     "content/en/projects/_index.md",
-    "content/en/experience.md",
+    "content/en/blog/_index.md",
+    "content/en/blog/genesis.md",
+    "public/videos/monkeywalk.mp4",
+    "static/videos/monkeywalk.mp4",
+    "public/videos/monkeywalk.mov",
+    "static/videos/monkeywalk.mov",
+    "public/videos",
+    "static/videos",
+    "layouts/_default/blog.html",
+    "public/en/blog/index.xml",
+    "public/en/blog/genesis/index.html",
+    "public/en/blog/future-dolor/index.html",
+    "content/en/blogs/genesis.md",
+    "content/en/blog/future-dolor.md",
+    "content/en/blogs/future-dolor.md",
     "archetypes/static.md",
     "archetypes/blogpost.md",
-    "public/en/blogs/future-dolor/index.html",
-    "public/en/blogs/future-dolor",
-    "content/en/blogs/future-dolor.md",
-    "public/resume.pdf",
-    "static/resume.pdf",
-    "public/resume/index.html",
-    "public/resume",
     "content/en/resume.md",
     "public/images/tinysheriff_header.jpg",
     "static/images/tinysheriff_header.jpg",
-    "public/en/experience/index.html",
-    "public/en/experience",
-    "public/en/untitled/index.html",
-    "content/en/about.md",
-    "content/en/contact.md",
     "content/en/blogs/future_dolor.md",
     "content/en/blogs/_index.md",
     "archetypes/static.md.md",

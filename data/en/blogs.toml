@@ -1,9 +1,0 @@
-[[blogs]]
-title = "The Future of Dolor"
-date = "2025-02-28"
-summary = "At vero eos et accusamus et iusto odio dignissimos ducimus."
-tags = ["Sit", "Amet", "Consectetur"]
-content = """
-Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis...
-"""
-link = "/en/blogs/future-dolor"

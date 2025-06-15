@@ -1,0 +1,10 @@
+[[blog]]
+title = "Genesis"
+date = "2025-06-15"
+summary = "Welcome to my website..."
+tags = ["meta" ]
+content = """
+Welcome to my website...
+"""
+link = "/en/blog/genesis"
+

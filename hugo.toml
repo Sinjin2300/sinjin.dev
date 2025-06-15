@@ -8,6 +8,15 @@ canonifyURLs = true
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = true 
+    style = "github-dark"       
+    lineNos = true 
+
 
 [languages]
   [languages.en]
@@ -18,7 +27,7 @@ defaultContentLanguageInSubdir = true
     [languages.en.menu]
       [[languages.en.menu.main]]
         name = "About"
-        pageRef = "/about" # Corresponds to content/en/about.md or content/en/about/_index.md
+        pageRef = "/about" 
         weight = 1
       [[languages.en.menu.main]]
         name = "Experience"
@@ -30,7 +39,7 @@ defaultContentLanguageInSubdir = true
         weight = 3
       [[languages.en.menu.main]]
         name = "Blog"
-        pageRef = "/blogs" # Assumes a section named 'blogs'
+        pageRef = "/blog" # Assumes a section named 'blogs'
         weight = 4
       [[languages.en.menu.main]]
         name = "Contact"
