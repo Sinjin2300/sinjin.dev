@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/en/resume.md",
+                "file": "content/en/blog/genesis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "resume"
+              "title": "genesis"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/en/resume.md",
+                "file": "content/en/blog/genesis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for resume"
+              "title": "Backlinks for genesis"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/en/resume.md",
+                "file": "content/en/blog/genesis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from resume"
+              "title": "Outgoing links from genesis"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/en/resume.md",
+                "file": "content/en/blog/genesis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of resume"
+              "title": "Outline of genesis"
             }
           }
         ]
@@ -170,6 +170,10 @@
   },
   "active": "3b3b5a85bf2ba63f",
   "lastOpenFiles": [
+    "public/en/categories/meta/index.xml",
+    "public/en/categories/meta/index.html",
+    "public/en/categories/meta",
+    "content/en/resume.md",
     "content/en/experience.md",
     "content/en/contact.md",
     "content/en/about.md",
@@ -185,14 +189,11 @@
     "static/videos",
     "layouts/_default/blog.html",
     "public/en/blog/index.xml",
-    "public/en/blog/genesis/index.html",
-    "public/en/blog/future-dolor/index.html",
     "content/en/blogs/genesis.md",
     "content/en/blog/future-dolor.md",
     "content/en/blogs/future-dolor.md",
     "archetypes/static.md",
     "archetypes/blogpost.md",
-    "content/en/resume.md",
     "public/images/tinysheriff_header.jpg",
     "static/images/tinysheriff_header.jpg",
     "content/en/blogs/future_dolor.md",
