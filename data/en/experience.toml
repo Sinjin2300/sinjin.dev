@@ -2,10 +2,11 @@
   role = "Lead Engineer"
   company = "Rotgut Games"
   company_link = "" # Omit or leave blank if no link
-  period = "Sep 2024 - Present"
+  period = "Sep 2024 - May 2025"
   country = "USA"
   responsibilities = [
-    "Coordinated a team of 9 Engineers in the creation of a Game.",
-    "Implemented core systems for the game such as Event Management and State Serialization"
+    "Led team of 9 engineers and coordinated with 20+ artists/designers using Scrum to ship a complete game",
+    "Implemented core systems for the game such as Event Management and State Serialization",
+    "Collaborated directly with UI/UX designers to implement all menus, HUD, and in-game screens"
   ]
   technologies = [ "C#", "Unity"]
