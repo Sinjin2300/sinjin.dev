@@ -1,0 +1,25 @@
+row1 = [
+  { icon = "devicon-rust-original", name = "Rust" },
+  { icon = "devicon-c-plain", name = "C" },
+  { icon = "devicon-csharp-plain", name = "C#" },
+  { icon = "devicon-cplusplus-plain", name = "C++" },
+  { icon = "devicon-java-plain", name = "Java" },
+  { icon = "devicon-bash-plain", name = "Bash" },
+  { icon = "devicon-python-plain", name = "Python" },
+  { icon = "devicon-linux-plain", name = "Linux" },
+  { icon = "devicon-nixos-plain", name = "NixOS" },
+]
+
+row2 = [
+  { icon = "devicon-unity-plain", name = "Unity" },
+  { icon = "devicon-unrealengine-original", name = "Unreal" },
+  { icon = "devicon-git-plain", name = "Git" },
+  { icon = "devicon-github-plain", name = "GitHub" },
+  { icon = "devicon-qt-original", name = "QT" },
+  { icon = "devicon-docker-plain", name = "Docker" },
+  { icon = "devicon-nginx-original", name = "Nginx" },
+  { icon = "devicon-proxmox-plain-wordmark", name = "Proxmox" },
+  { icon = "devicon-postgresql-plain", name = "PostgreSQL" },
+  { icon = "devicon-redis-plain", name = "Redis" },
+  { icon = "devicon-jira-plain", name = "Jira" },
+]

@@ -4,6 +4,7 @@ date: 2025-06-14T19:19:24-07:00
 draft: false
 tags:
   - meta
+  - blog
 categories: meta
 description: Welcome to my website...
 layout: single

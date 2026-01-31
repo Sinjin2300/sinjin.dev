@@ -1,17 +1,33 @@
 {{ define "main" }}
-<div class="container mx-auto px-4 py-12">
-    <h1 class="text-4xl font-bold mb-8">{{ .Title }}</h1>
-    <div class="space-y-6">
+<div class="w-full md:w-3/4 lg:w-1/2 mx-auto px-4 py-12">
+    <h1 class="text-4xl font-bold mb-2 text-text-primary-light dark:text-text-primary-dark">{{ .Title }}</h1>
+    <p class="text-text-secondary-light dark:text-text-secondary-dark mb-8">{{ .Pages | len }} {{ if eq (.Pages | len) 1 }}post{{ else }}posts{{ end }}</p>
+    
+    <div class="space-y-8 max-w-3xl mx-auto">
         {{ range .Pages }}
-        <article class="border border-gray-700 rounded-lg p-6 bg-[#1a1a1a]">
-            <h2 class="text-2xl font-semibold mb-2">
-                <a href="{{ .RelPermalink }}" class="hover:text-gray-300">{{ .Title }}</a>
-            </h2>
+        <article class="group">
+            <p class="text-gray-400 text-sm mb-1">{{ .Date.Format "January 2, 2006" }}</p>
+            <a href="{{ .RelPermalink }}" class="block group">
+                <h2 class="text-2xl font-semibold mb-2 text-text-primary-light dark:text-text-primary-dark hover:text-accent-light dark:hover:text-accent-dark transition-colors">
+                    {{ .Title }}
+                </h2>
+            </a>
             {{ if .Description }}
-            <p class="text-gray-400">{{ .Description }}</p>
+            <p class="text-gray-400 mb-3">{{ .Description }}</p>
+            {{ else if .Summary }}
+            <p class="text-gray-400 mb-3">{{ .Summary }}</p>
+            {{ end }}
+            {{ with .Params.tags }}
+            <div class="flex gap-2 flex-wrap">
+                {{ range . }}
+                <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="px-2 py-1 bg-bg-secondary-light dark:bg-bg-secondary-dark rounded-md text-xs font-medium text-text-secondary-light dark:text-text-secondary-dark hover:text-accent-light dark:hover:text-accent-dark transition-colors">
+                    #{{ . }}
+                </a>
+                {{ end }}
+            </div>
             {{ end }}
         </article>
         {{ end }}
     </div>
 </div>
-{{ end }} 
+{{ end }}

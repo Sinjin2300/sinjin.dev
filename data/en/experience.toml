@@ -2,7 +2,7 @@
   role = "Lead Engineer"
   company = "Rotgut Games"
   company_link = "" # Omit or leave blank if no link
-  period = "Sep 2024 - Aug 2025"
+  period = "Sep 2024 - May 2025"
   country = "USA"
   responsibilities = [
     "Coordinated a team of 9 Engineers in the creation of a Game.",
