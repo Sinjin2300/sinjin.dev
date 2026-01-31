@@ -5,3 +5,10 @@ tech = "Unity, C#, Git, GitHub, Jira"
 image = "/images/tinysheriff_header.jpg"
 link = "https://store.steampowered.com/app/3566060/Tiny_Sheriff/"
 
+[[projects]]
+title = "HomeServer Chronicles"
+description = "A series documenting the build and configuration of my personal homeserver, from hardware selection to software setup and self-hosted services."
+tech = "NixOS, ZFS, SSO, Docker"
+image = "/images/thespread.jpeg"
+link = "/en/tags/homeserver"
+

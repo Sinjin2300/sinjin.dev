@@ -1,15 +1,19 @@
 {{ define "main" }}
-<div class="container mx-auto px-4 py-12">
-    <h1 class="text-4xl font-bold mb-8">{{ .Title }}</h1>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {{ range .Data.Terms.ByCount }}
-        <div class="border border-gray-700 rounded-lg p-6 bg-[#1a1a1a]">
-            <a href="{{ .Page.RelPermalink }}" class="text-xl font-semibold hover:text-gray-300">
-                {{ .Page.Title }}
-            </a>
-            <span class="text-gray-400 ml-2">({{ .Count }})</span>
-        </div>
+<div class="w-full md:w-3/4 lg:w-1/2 mx-auto px-4 py-12">
+    <h1 class="text-4xl font-bold mb-2 text-text-primary-light dark:text-text-primary-dark">{{ .Title }}</h1>
+    <p class="text-text-secondary-light dark:text-text-secondary-dark mb-8">All tags used across the site</p>
+    
+    <div class="flex flex-wrap gap-4">
+        {{ range .Data.Terms.Alphabetical }}
+        <a href="{{ .Page.RelPermalink }}" class="group">
+            <div class="border border-gray-700 rounded-lg px-6 py-4 bg-bg-secondary-light dark:bg-bg-secondary-dark hover:border-accent-light dark:hover:border-accent-dark transition-colors">
+                <span class="text-xl font-semibold text-text-primary-light dark:text-text-primary-dark group-hover:text-accent-light dark:group-hover:text-accent-dark transition-colors">
+                    #{{ .Page.Title }}
+                </span>
+                <span class="text-gray-400 ml-2">({{ .Count }})</span>
+            </div>
+        </a>
         {{ end }}
     </div>
 </div>
-{{ end }} 
+{{ end }}

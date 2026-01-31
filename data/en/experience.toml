@@ -9,4 +9,4 @@
     "Implemented core systems for the game such as Event Management and State Serialization",
     "Collaborated directly with UI/UX designers to implement all menus, HUD, and in-game screens"
   ]
-  technologies = [ "C#", "Unity"]
+  technologies = [ "C#", "Unity", "Git", "GitHub", "Jira"]
