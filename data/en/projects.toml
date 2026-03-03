@@ -6,6 +6,13 @@ image = "/images/tinysheriff_header.jpg"
 link = "https://store.steampowered.com/app/3566060/Tiny_Sheriff/"
 
 [[projects]]
+title = "Dead Simple Honeypot - dshpot"
+description = "Exactly as the title says, a dead simple SSH honeypot for tinkerers."
+tech = "Rust, SSH, Nix, Docker"
+image = "/images/dshpot.png"
+link = "/en/blog/dshpot/"
+
+[[projects]]
 title = "HomeServer Chronicles"
 description = "A series documenting the build and configuration of my personal homeserver, from hardware selection to software setup and self-hosted services."
 tech = "NixOS, ZFS, SSO, Docker"
